@@ -1,0 +1,39 @@
+
+<form class="form-horizontal" >
+<fieldset>
+
+<!-- Form Name -->
+<legend>{{projectopen.projectName}}</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Package Name</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" ng-model="rec.packageName"  placeholder="Enter Package Name" class="form-control input-md">
+   
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Project Id</label>  
+  <div class="col-md-4">
+  <select ng-model="rec.projectId" ng-options="p as p.projectName for p in proj" class="form-control input-md">
+   <option value="">--Select Project Id--</option>
+  </select>
+  
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton">Create Package</label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" ng-click="insertPackage()" class="btn btn-primary">Create Package</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+

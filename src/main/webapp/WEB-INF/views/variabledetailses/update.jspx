@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_fiftyhertz_pns_domain_VariableDetails" modelAttribute="variableDetails" path="/variabledetailses" versionField="Version" z="zbv1ARugExoMdYsR/5Vf2qYYgVo=">
+        <field:input field="variableName" id="c_com_fiftyhertz_pns_domain_VariableDetails_variableName" z="U4AFelFnKbXtklxfXcITc6v5qwk="/>
+        <field:input field="datatype" id="c_com_fiftyhertz_pns_domain_VariableDetails_datatype" z="NAMCLoHd+zVDT7J9/A/w3S4Awuo="/>
+        <field:input field="accessModifier" id="c_com_fiftyhertz_pns_domain_VariableDetails_accessModifier" z="CbvEK+kJaQUwOZt5HnORYGAh2Zw="/>
+        <field:select field="classId" id="c_com_fiftyhertz_pns_domain_VariableDetails_classId" itemValue="id" items="${classdetailses}" path="/classdetailses" z="xytbOpRi+kgGcsuNluzaynmD0MM="/>
+        <field:select field="methodId" id="c_com_fiftyhertz_pns_domain_VariableDetails_methodId" itemValue="id" items="${methoddetails}" path="/methoddetails" z="x10A3b2a84WgnWsZvSJYr+bNTFc="/>
+    </form:update>
+</div>

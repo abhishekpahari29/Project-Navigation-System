@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_fiftyhertz_pns_domain_VariableDetails" items="${variabledetailses}" z="hNyXRsJpSZSIf1z+5YN8TgJLzbs=">
+        <table:table data="${variabledetailses}" id="l_com_fiftyhertz_pns_domain_VariableDetails" path="/variabledetailses" z="HwFYaTOkplfUVE6Ws/XFHG4/mH4=">
+            <table:column id="c_com_fiftyhertz_pns_domain_VariableDetails_variableName" property="variableName" z="rSUrCIzs+DA2wa5Im+bzmtBqURE="/>
+            <table:column id="c_com_fiftyhertz_pns_domain_VariableDetails_datatype" property="datatype" z="FNSTDm7gClmMFdC4yq5dho+x3K4="/>
+            <table:column id="c_com_fiftyhertz_pns_domain_VariableDetails_accessModifier" property="accessModifier" z="lmddoaSon5m71nb3U+F4KO+QLAg="/>
+            <table:column id="c_com_fiftyhertz_pns_domain_VariableDetails_classId" property="classId" z="F6LaMlIFCtWksxLCkCvRLE+g2kA="/>
+            <table:column id="c_com_fiftyhertz_pns_domain_VariableDetails_methodId" property="methodId" z="mhSN5JHF8bJg9DWaLbPA6+cFzy8="/>
+        </table:table>
+    </page:list>
+</div>

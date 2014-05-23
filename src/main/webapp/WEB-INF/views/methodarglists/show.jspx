@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_fiftyhertz_pns_domain_MethodArgList" object="${methodarglist}" path="/methodarglists" z="NgFhwsUZjDkhdmaoupMD4VPqaUg=">
+        <field:display field="methodId" id="s_com_fiftyhertz_pns_domain_MethodArgList_methodId" object="${methodarglist}" z="AgPEwTAp2bjbfO5FWdwfV3KagmY="/>
+        <field:display field="methodArgType" id="s_com_fiftyhertz_pns_domain_MethodArgList_methodArgType" object="${methodarglist}" z="6wRgPWquKg6diHLL3WLrIRFENJw="/>
+    </page:show>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="methoddetails/list">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/list.jspx"/>
+    </definition>
+<definition extends="default" name="methoddetails/show">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/show.jspx"/>
+    </definition>
+<definition extends="default" name="methoddetails/create">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/create.jspx"/>
+    </definition>
+<definition extends="default" name="methoddetails/update">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/update.jspx"/>
+    </definition>
+<definition extends="default" name="methoddetails/findMethodDetailsByClassId">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/findMethodDetailsByClassId.jspx"/>
+    </definition>
+<definition extends="default" name="methoddetails/findMethodDetailsById">
+        <put-attribute name="body" value="/WEB-INF/views/methoddetails/findMethodDetailsById.jspx"/>
+    </definition>
+</tiles-definitions>

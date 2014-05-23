@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_fiftyhertz_pns_domain_MethodDetail" modelAttribute="methodDetail" path="/methoddetails" versionField="Version" z="pGENf8tscEV3rTtUyVYiWbcCclQ=">
+        <field:input field="methodName" id="c_com_fiftyhertz_pns_domain_MethodDetail_methodName" z="d3e8MWwJsPT1XOIEr0LORlOxJyg="/>
+        <field:input field="returnType" id="c_com_fiftyhertz_pns_domain_MethodDetail_returnType" z="iuhzSVnBxYFLSP+nQPds5JzJjLc="/>
+        <field:select field="classId" id="c_com_fiftyhertz_pns_domain_MethodDetail_classId" itemValue="id" items="${classdetailses}" path="/classdetailses" z="PXa6bfrLcH8/LJyu1h1EyTeuEJY="/>
+    </form:update>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_fiftyhertz_pns_domain_Project" object="${project}" path="/projects" z="1fZvtlcrL3dmI3i0qFWb8DxUFNk=">
+        <field:display field="projectName" id="s_com_fiftyhertz_pns_domain_Project_projectName" object="${project}" z="JSt+ScTj8nUHDJohQPY/L0JZC34="/>
+    </page:show>
+</div>

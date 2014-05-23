@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_fiftyhertz_pns_domain_MethodArgList" modelAttribute="methodArgList" path="/methodarglists" render="${empty dependencies}" z="DOuhgX6K0twmFFWUDJyYAe1LT/I=">
+        <field:select field="methodId" id="c_com_fiftyhertz_pns_domain_MethodArgList_methodId" itemValue="id" items="${methoddetails}" path="/methoddetails" z="T0IGQTFdMmnlukjPJHsA4sgRL2E="/>
+        <field:input field="methodArgType" id="c_com_fiftyhertz_pns_domain_MethodArgList_methodArgType" z="DNWdRfEsRQe48OoBIczsa0kmRHY="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_fiftyhertz_pns_domain_MethodArgList" render="${not empty dependencies}" z="6JN+/c9iC2XIP3NFKD6Q+oVmkwo="/>
+</div>

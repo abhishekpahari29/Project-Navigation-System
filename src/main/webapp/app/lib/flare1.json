@@ -1,0 +1,37 @@
+  {
+   "name": "flare",
+   "children": [
+   {
+     "name": "Mail reflection",
+     "children": [
+     {
+       "name": "pck1",
+       "children": [
+       {"name": "class1", 
+       "children": [
+       {"name": "method1"},
+       {"name": "method2"},
+       {"name": "method3"},
+       
+       ]
+
+
+       },
+       {"name": "class2", 
+       "children": [
+       {"name": "method11"},
+       {"name": "method12"},
+       {"name": "method13"},
+       
+       ]},
+       {"name": "class3"},
+       {"name": "class4"},
+       {"name": "class5"}
+       ]
+     }
+     ]
+   }
+   ]
+ }
+
+

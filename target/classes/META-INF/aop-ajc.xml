@@ -1,0 +1,61 @@
+<aspectj>
+<aspects>
+<aspect name="com.fiftyhertz.pns.web.ProjectController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.web.VariableDetailsController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.web.MethodArgListController_Roo_Controller_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.web.PackageDetailsController_Roo_Controller_Finder"/>
+<aspect name="com.fiftyhertz.pns.web.MethodDetailController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.web.MethodArgListController_Roo_Controller_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.web.MethodArgListController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.web.PackageDetailsController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.ClassDetails_Roo_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.web.PackageDetailsController_Roo_Controller_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.web.MethodDetailController_Roo_Controller_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.fiftyhertz.pns.web.MethodDetailController_Roo_Controller_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_Configurable"/>
+<aspect name="com.fiftyhertz.pns.web.ClassDetailsController_Roo_Controller_Json"/>
+<aspect name="com.fiftyhertz.pns.web.ClassDetailsController_Roo_Controller"/>
+<aspect name="com.fiftyhertz.pns.web.ClassDetailsController_Roo_Controller_Finder"/>
+<aspect name="com.fiftyhertz.pns.domain.Project_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_JavaBean"/>
+<aspect name="com.fiftyhertz.pns.domain.PackageDetails_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_ToString"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodDetail_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.fiftyhertz.pns.web.VariableDetailsController_Roo_Controller_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.VariableDetails_Roo_Json"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_Jpa_Entity"/>
+<aspect name="com.fiftyhertz.pns.domain.MethodArgList_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+

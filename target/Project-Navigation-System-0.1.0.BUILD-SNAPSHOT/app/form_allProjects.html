@@ -1,0 +1,38 @@
+
+<legend>Your Projects</legend>
+
+<div class="control-group">
+	<label class="control-label" for="textifilter">Filter by :</label>
+	<div class="controls">
+		<input ng-model="query" class="input-xlarge" />
+	</div>
+</div>
+
+<hr>
+<table class="table">
+
+	<thead>
+		<tr>
+			<th>User Id</th>
+			<th>Project ID</th>
+			<th>Project Name</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr ng-repeat="project in projects|filter:query" class="phone-listing">
+			<td>{{project.userId}}</td>
+			<td>{{project.id}}</td>
+			<td>{{project.projectName}}</td>
+			<input type="hidden" ng-model="project.id">
+			<td><a href="#/openprojectcontent/{{project.id}}">Open</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+

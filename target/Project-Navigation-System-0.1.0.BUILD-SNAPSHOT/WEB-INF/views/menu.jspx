@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_classdetails" z="7+8nG2OUaeeqSPlMPMlBBiEXUcA=">
+            <menu:item id="i_classdetails_new" messageCode="global_menu_new" url="/classdetailses?form" z="H+Uvy1DT6VZb48Sg6qLAl54os1M="/>
+            <menu:item id="i_classdetails_list" messageCode="global_menu_list" url="/classdetailses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="epd8vlZDz6lubMTrACantuOGGGo="/>
+            <menu:item id="fi_classdetails_packageid" messageCode="global_menu_find" url="/classdetailses?find=ByPackageId&amp;form" z="s+w9xNrYFkFv0dt+iXcMWqIWLso="/>
+        </menu:category>
+        <menu:category id="c_packagedetails" z="LmIPoc/p3eoRtMf0nXzhOODinN0=">
+            <menu:item id="i_packagedetails_new" messageCode="global_menu_new" url="/packagedetailses?form" z="sTOX2B1EptZt+UQv8+XKLNftgMc="/>
+            <menu:item id="i_packagedetails_list" messageCode="global_menu_list" url="/packagedetailses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ldk7TWYcQGDecsALNpmqeFt+5cs="/>
+            <menu:item id="fi_packagedetails_projectid" messageCode="global_menu_find" url="/packagedetailses?find=ByProjectId&amp;form" z="KtUbbNro/8BOJTZY5uhZiYwQTxA="/>
+        </menu:category>
+        <menu:category id="c_variabledetails" z="zZAuQhS29y6RagKsX8qqGOfn+l4=">
+            <menu:item id="i_variabledetails_new" messageCode="global_menu_new" url="/variabledetailses?form" z="sVutn1jrnhiZTyskW9LKpw2UJaQ="/>
+            <menu:item id="i_variabledetails_list" messageCode="global_menu_list" url="/variabledetailses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="UKviPu87f3RyZ1Cd1qdxHkJ1wUo="/>
+        </menu:category>
+        <menu:category id="c_project" z="u0PzRIwMDmEv/J6b8vbKakXGIdQ=">
+            <menu:item id="i_project_new" messageCode="global_menu_new" url="/projects?form" z="1BazRC1rLnod0a+MpP1flWTvehA="/>
+            <menu:item id="i_project_list" messageCode="global_menu_list" url="/projects?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GHL05c3Rvr+eKDgRCk3Ttak0W+g="/>
+        </menu:category>
+        <menu:category id="c_methodarglist" z="EkS2icHWwTDSVtNSVNy7yCmzhaY=">
+            <menu:item id="i_methodarglist_new" messageCode="global_menu_new" url="/methodarglists?form" z="NTrpgzSvXd+CO9cJ1fbB0tg7gxM="/>
+            <menu:item id="i_methodarglist_list" messageCode="global_menu_list" url="/methodarglists?page=1&amp;size=${empty param.size ? 10 : param.size}" z="STYBqncxzMJnaF8UZN2ILEkD5Gc="/>
+            <menu:item id="fi_methodarglist_methodid" messageCode="global_menu_find" url="/methodarglists?find=ByMethodId&amp;form" z="HKVJ71rEZYti2olbtII4XWxoun0="/>
+        </menu:category>
+        <menu:category id="c_methoddetail" z="2k541RsDN6nyaJoq0pluYUktc2U=">
+            <menu:item id="i_methoddetail_new" messageCode="global_menu_new" url="/methoddetails?form" z="FV09GB9jopgwcVfh3w8mL0v+Msg="/>
+            <menu:item id="i_methoddetail_list" messageCode="global_menu_list" url="/methoddetails?page=1&amp;size=${empty param.size ? 10 : param.size}" z="+Hlt6HCHnfK7XzT7T3TfsQD7hDM="/>
+            <menu:item id="fi_methoddetail_classid" messageCode="global_menu_find" url="/methoddetails?find=ByClassId&amp;form" z="DFUvr+09mHncmGUrPa8KuV9czgg="/>
+            <menu:item id="fi_methoddetail_id" messageCode="global_menu_find" url="/methoddetails?find=ById&amp;form" z="GVRirkflyyhxpIeegGOgz1tVCfk="/>
+        </menu:category>
+    </menu:menu>
+</div>

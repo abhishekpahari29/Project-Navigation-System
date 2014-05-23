@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_fiftyhertz_pns_domain_PackageDetails" modelAttribute="packageDetails" path="/packagedetailses" versionField="Version" z="EEpKCu1OEW9c7w+l7EH48Exz9og=">
+        <field:input field="packageName" id="c_com_fiftyhertz_pns_domain_PackageDetails_packageName" z="CUMoigGcxExQeJx6Yj5zwtrwwEY="/>
+        <field:select field="projectId" id="c_com_fiftyhertz_pns_domain_PackageDetails_projectId" itemValue="id" items="${projects}" path="/projects" z="LVN5Nz9uoZ33rG+O3xD0NZxWVHw="/>
+    </form:update>
+</div>

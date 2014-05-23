@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_fiftyhertz_pns_domain_ClassDetails" object="${classdetails}" path="/classdetailses" z="jIKdENMiOut7v5kQwhGzTumPedc=">
+        <field:display field="className" id="s_com_fiftyhertz_pns_domain_ClassDetails_className" object="${classdetails}" z="5C+agiWfeZItbwIgEge94v0RXAM="/>
+        <field:display field="classVisibility" id="s_com_fiftyhertz_pns_domain_ClassDetails_classVisibility" object="${classdetails}" z="5jrlcERhUA4XZem4al1LTW/uqxU="/>
+        <field:display field="projectId" id="s_com_fiftyhertz_pns_domain_ClassDetails_projectId" object="${classdetails}" z="4OXc1WFVOSoRCaHG2DFZfp6XB44="/>
+        <field:display field="packageId" id="s_com_fiftyhertz_pns_domain_ClassDetails_packageId" object="${classdetails}" z="D2FKFB7YsWBI7DDgJwsuQcrzLb0="/>
+    </page:show>
+</div>
